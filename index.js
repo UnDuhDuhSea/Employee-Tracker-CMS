@@ -33,7 +33,7 @@ const runPrompt = () => {
         "Add an employee",
         "Add a role",
         "Add a department",
-        "Update employee roles",
+        // "Update employee roles",
       ],
     })
     .then((answer) => {
@@ -56,9 +56,9 @@ const runPrompt = () => {
         case "Add a department":
           addDepartment();
           break;
-        case "Update employee roles":
-          updateEmployeeRoles();
-          break;
+        // case "Update employee roles":
+        //   updateEmployeeRoles();
+        //   break;
         default:
           console.log(`Invalid action: ${answer.action}`);
           break;
